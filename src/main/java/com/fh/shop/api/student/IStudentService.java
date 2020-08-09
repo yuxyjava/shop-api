@@ -1,6 +1,8 @@
 package com.fh.shop.api.student;
 
-public class IStudentService {
+public interface IStudentService {
 
-     void say()
+     void say();
+
+     void test();
 }
