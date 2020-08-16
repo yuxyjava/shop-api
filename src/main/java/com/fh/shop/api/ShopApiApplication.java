@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 @MapperScan("com.fh.shop.api.*.mapper")
 //@EnableScheduling
 public class ShopApiApplication {
-
     public static void main(String[] args) {
         SpringApplication.run(ShopApiApplication.class, args);
     }
